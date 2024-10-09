@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+<form> 
+    <!--CAMPO PARA USUÁRIO-->
+    <label for="usuario">Usuário:</label>
+    <input id="usuario" type="text" placeholder="Usuário" required>
+
+    <br><br>
+
+    <!--CAMPO PARA SENHA-->
+    <label for="senha">Senha:</label>
+    <input id="senha" type="password" placeholder="Senha" required>
+
+    <br><br>
+
+    <!--CAMPO PARA E-MAIL-->
+    <label for="email">E-mail:</label>
+    <input id="email" type="email" placeholder="E-mail" required>
+
+    <br><br>
+
+    <!--CAMPO PARA SUBMIT-->
+    <input type="submit" value="Enviar">
+</form>
+
+    <br><hr>
+        <h2>Radio</h2>
+        <input type="radio" id="item_1" name="itens" value="item1">
+        <label for="item_1">Item 1</label>
+
+        <br><br>
+
+        <input type="radio" id="item_2" name="itens" value="item2">
+        <label for="item_2">Item 2</label>
+
+        <br><br>
+
+        <input type="radio" id="item_3" name="itens" value="item3">
+        <label for="item_3">Item 3</label>
+
+        
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    
+    <br><hr>
+        <h2>Checkbox</h2>
+
+        <input type="checkbox" id="item-1" name="item-1" value="item-1">
+        <label for="item-1">Item 1</label>
+
+        <br><br>
+
+        <input type="checkbox" id="item-2" name="item-2" value="item-2">
+        <label for="item-2">Item 2</label>
+
+        <br><br>
+
+        <input type="checkbox" id="item-3" name="item-3" value="item-3">
+        <label for="item-3">Item 3</label>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    
+    <br><hr>
+
+        <h2>Select</h2>
+
+        <select name="select_itens">
+            <option selected disabled value="">Selecione um item</option>
+            <option value="primeiro_item">Item 1</option>
+            <option value="segundo_item">Item 2</option>
+            <option value="terceiro_item">Item 3</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    
+    <br><hr>
+
+        <h2>Área de texto</h2>
+
+        <textarea required ="mensagem" placeholder="Digite aqui sua mensagem" rows="20" cols="50"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+    <br><br><hr>
+    <a href="index.html">Página principal</a>
+</body>
+</html>
